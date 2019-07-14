@@ -1,4 +1,4 @@
-let num = 16;
+let num = 9;
 const target12 = document.querySelector("#container");
 
 function createGrid(num) {
