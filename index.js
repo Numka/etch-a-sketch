@@ -15,8 +15,9 @@ target12.addEventListener("mouseover", (e) => {
     }
 }) 
 
-function clear() {
-    
+function clear12() {
+    let myNodeList = document.querySelectorAll(".asd");
+    myNodeList.forEach(el => el.classList.remove('turnBlack'));
 }
 
 createGrid(num);

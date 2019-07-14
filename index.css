@@ -3,6 +3,9 @@ div {
 }
 
 #container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
     height: 352px;
     width: 352px;
     border: 1px solid black;
@@ -13,9 +16,8 @@ div {
 }
 
 .asd {
-    float: left;
-    height: 20px;
     width: 20px;
+    height: 20px;
     border: 1px solid black;
 }
 
